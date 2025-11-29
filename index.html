@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/output.css" rel="stylesheet">
 
+    <link rel="shortcut icon" href="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/354.png" type="image/x-icon">
+
     <title>IFRN - LADING PAGE</title>
 </head>
 
-<body class="font-sans">
+<body class="font-sans bg-gray-100">
     <header class="flex flex-col md:flex-col">
         <section class="shadow-lg/70 md:order1">
             <nav
@@ -31,17 +33,17 @@
                             </a>
                         </li>
                         <li class="p-2">
-                            <a href="">
+                            <a href="#oportunidades">
                                 Oportunidades
                             </a>
                         </li>
                         <li class="p-2">
-                            <a href="">
+                            <a href="#sobre">
                                 Sobre
                             </a>
                         </li>
                         <li class="p-2">
-                            <a href="">
+                            <a href="#contato">
                                 Contato
                             </a>
                         </li>
@@ -64,44 +66,266 @@
             </div>
         </section>
     </header>
-    <main class="bg-gray-900">
+    <main>
         <section id="oportunidades" class="pt-25 text-center px-10 pb-13">
             <h1 class="text-3xl font-bold text-[#00843D] leading-relaxed">
                 Oportunidades Disponíveis
             </h1>
-            <p class="pt-5 text-gray-600">
+            <p class="pt-5 text-gray-700">
                 Explore projetos de pesquisa e extensão nas diversas áreas do conhecimento
             </p>
         </section>
-        <section class="flex flex-col gap-6 p-4 items-center w-full">
-            <article id="daw" class="bg-white w-80 rounded-lg shadow-lg  flex items-center p-4">
-                <div>
-                    <h2>
+        <section class="flex flex-col gap-6 p-4 items-center w-full md:flex-row md:justify-center md:items-stretch md:flex-wrap">
+            <article id="daw" class="bg-white w-80 rounded-lg shadow-lg flex items-center flex-col hover:scale-105 hover:shadow-2xl cursor-pointer transition-all duration-300">
+                <div class="p-4 flex-1">
+                    <button class="text-white bg-[#007BFF] p-2 rounded-md mb-7 px-6">
+                        Pesquisa
+                    </button>
+                    <h2 class="text-[#00843D] text-2xl font-bold mb-4">
                         Desenvolvimento de Aplicações Web
                     </h2>
+                    <p class="text-gray-700">
+                        Projeto de pesquisa focado no desenvolvimento de sistemas web modernos utilizando tecnologias atuais e metodologias ágeis
+                    </p>
+                    <h3 class="font-bold pt-5">
+                        Requisitos:
+                    </h3>
+                    <ul class="list-disc px-5 text-sm text-gray-700">
+                        <li class="py-2">
+                            Cursando Informática ou áreas afins
+                        </li>
+                        <li class="py-2">
+                            Conhecimento em HTML, CSS e JavaScript
+                        </li>
+                        <li class="pt-2 pb-1">
+                            Disponibilidade de 20h semanais
+                        </li>
+                    </ul>
                 </div>
-                <div>
-
+                <hr class="w-full border-t border-gray-200 my-4">
+                <div class="w-full flex items-center justify-center">
+                    <button class="bg-[#0E723F] text-white rounded-md p-3 px-6 mb-5">
+                        Saiba Mais
+                    </button>
                 </div>
             </article>
-            <article id="idc" class="bg-white w-80 flex items-center mx-auto pt-5">
-                <div>
-                    <h2>
+            <article id="idc" class="bg-white w-80 rounded-lg shadow-lg flex items-center flex-col hover:scale-105 hover:shadow-2xl cursor-pointer transition-all duration-300">
+                <div class="p-4 flex-1">
+                    <button class="text-white bg-[#38A359] p-2 rounded-md mb-7 px-6">
+                        Extensão
+                    </button>
+                    <h2 class="text-[#00843D] text-2xl font-bold mb-4">
                         Inclusão Digital na Comunidade
                     </h2>
+                    <P class="text-gray-700"> 
+                        Projeto de extensão voltado para levar conhecimentos de informática básica e cidadania digital para comunidades carentes
+                    </P>
+                    <h3 class="font-bold pt-5">
+                        Requisitos:
+                    </h3>
+                    <ul class="list-disc px-5 text-sm text-gray-700">
+                        <li class="py-2">Habilidades de comunicação</li>
+                        <li class="py-2">Conhecimento básico em informática</li>
+                        <li class="pt-2 pb-1">Disponibilidade para atividades esxternas</li>
+                    </ul>
+                </div>
+                <hr class="w-full border-t border-gray-200 my-4">
+                <div>
+                    <button class="bg-[#0E723F] text-white rounded-md p-3 px-6 mb-5">
+                        Saiba Mais
+                    </button>
                 </div>
             </article>
-            <article id="iaml">
-                <div>
-                    <h2>
+            <article id="iaml" class="bg-white w-80 rounded-lg shadow-lg flex items-center flex-col hover:scale-105 hover:shadow-2xl cursor-pointer transition-all duration-300">
+                <div class="p-4 flex-1">
+                    <button class="text-white bg-[#007BFF] p-2 rounded-md mb-7 px-6">
+                        Pesquisa
+                    </button>
+                    <h2 class="text-[#00843D] text-2xl font-bold mb-4">
                         Inteligência Artificial e Machine Learning
                     </h2>
+                    <p class="text-gray-700">
+                        Pesquisa em algoritmos de aprendizado de máquina aplicados a problemas reais da região
+                    </p>
+                    <h3 class="font-bold pt-5">
+                        Requisitos:
+                    </h3>
+                    <ul class="list-disc px-5 text-sm text-gray-700">
+                        <li class="py-2">Conhecimento em Python</li>
+                        <li class="py-2">Noções de estatísca</li>
+                        <li class="pt-2 pb-1">Interesse em IA e dados</li>
+                    </ul>
+                </div>
+                <hr class="w-full border-t border-gray-200 my-4">
+                <div>
+                    <button class="bg-[#0E723F] text-white rounded-md p-3 px-6 mb-5">
+                        Saiba Mais
+                    </button>
+                </div>
+            </article>
+            <article id="idc" class="bg-white w-80 rounded-lg shadow-lg flex items-center flex-col hover:scale-105 hover:shadow-2xl cursor-pointer transition-all duration-300">
+                <div class="p-4 flex-1">
+                    <button class="text-white bg-[#38A359] p-2 rounded-md mb-7 px-6">
+                        Extensão
+                    </button>
+                    <h2 class="text-[#00843D] text-2xl font-bold mb-4">
+                        Robótica Educacional para Escolas Públicas Descrição
+                    </h2>
+                    <P class="text-gray-700"> 
+                        Projeto de extensão que visa ensinar lógica de programação e robótica básica com Arduino para alunos do ensino fundamental de escolas parceiras.
+                    </P>
+                    <h3 class="font-bold pt-5">
+                        Requisitos:
+                    </h3>
+                    <ul class="list-disc px-5 text-sm text-gray-700">
+                        <li class="py-2">Conhecimento básico em Lógica de Programação</li>
+                        <li class="py-2">Interesse em docência e didática</li>
+                        <li class="pt-2 pb-1">Disponibilidade aos sábados pela manhã</li>
+                    </ul>
+                </div>
+                <hr class="w-full border-t border-gray-200 my-4">
+                <div>
+                    <button class="bg-[#0E723F] text-white rounded-md p-3 px-6 mb-5">
+                        Saiba Mais
+                    </button>
+                </div>
+            </article>
+            <article id="idc" class="bg-white w-80 rounded-lg shadow-lg flex items-center flex-col hover:scale-105 hover:shadow-2xl cursor-pointer transition-all duration-300">
+                <div class="p-4 flex-1">
+                    <button class="text-white bg-[#007BFF] p-2 rounded-md mb-7 px-6">
+                        Pesquisa
+                    </button>
+                    <h2 class="text-[#00843D] text-2xl font-bold mb-4">
+                        Monitoramento Inteligente de Consumo de Energia
+                    </h2>
+                    <P class="text-gray-700"> 
+                        Desenvolvimento de protótipos utilizando sensores IoT para monitorar e analisar o consumo energético dos laboratórios do campus em tempo real.
+                    </P>
+                    <h3 class="font-bold pt-5">
+                        Requisitos:
+                    </h3>
+                    <ul class="list-disc px-5 text-sm text-gray-700">
+                        <li class="py-2">Conhecimento em C/C++ (Arduino/ESP32)</li>
+                        <li class="py-2">Noções básicas de Eletrônica e Circuitos</li>
+                        <li class="pt-2 pb-1">Interesse em Sustentabilidade</li>
+                    </ul>
+                </div>
+                <hr class="w-full border-t border-gray-200 my-4">
+                <div>
+                    <button class="bg-[#0E723F] text-white rounded-md p-3 px-6 mb-5">
+                        Saiba Mais
+                    </button>
+                </div>
+            </article>
+            <article id="idc" class="bg-white w-80 rounded-lg shadow-lg flex items-center flex-col hover:scale-105 hover:shadow-2xl cursor-pointer transition-all duration-300">
+                <div class="p-4 flex-1">
+                    <button class="text-white bg-[#007BFF] p-2 rounded-md mb-7 px-6">
+                        Pesquisa
+                    </button>
+                    <h2 class="text-[#00843D] text-2xl font-bold mb-4">
+                        Análise de Vulnerabilidades em Redes Acadêmicas
+                    </h2>
+                    <P class="text-gray-700"> 
+                        Estudo focado em identificar falhas de segurança em redes locais simuladas e desenvolvimento de scripts para testes de penetração (Pentest) éticos.
+                    </P>
+                    <h3 class="font-bold pt-5">
+                        Requisitos:
+                    </h3>
+                    <ul class="list-disc px-5 text-sm text-gray-700">
+                        <li class="py-2">Domínio do sistema operacional Linux</li>
+                        <li class="py-2">Conhecimento em Redes de Computadores</li>
+                        <li class="pt-2 pb-1">Ética e responsabilidade profissional</li>
+                    </ul>
+                </div>
+                <hr class="w-full border-t border-gray-200 my-4">
+                <div>
+                    <button class="bg-[#0E723F] text-white rounded-md p-3 px-6 mb-5">
+                        Saiba Mais
+                    </button>
+                </div>
+            </article>
+                <article id="idc" class="bg-white w-80 rounded-lg shadow-lg flex items-center flex-col hover:scale-105 hover:shadow-2xl cursor-pointer transition-all duration-300">
+                <div class="p-4 flex-1">
+                    <button class="text-white bg-[#007BFF] p-2 rounded-md mb-7 px-6">
+                        Pesquisa
+                    </button>
+                    <h2 class="text-[#00843D] text-2xl font-bold mb-4">
+                        Gamificação no Ensino de Matemática
+                    </h2>
+                    <P class="text-gray-700"> 
+                        Criação de jogos digitais 2D voltados para auxiliar no aprendizado de matemática para alunos com dificuldades de aprendizagem.
+                    </P>
+                    <h3 class="font-bold pt-5">
+                        Requisitos:
+                    </h3>
+                    <ul class="list-disc px-5 text-sm text-gray-700">
+                        <li class="py-2">Lógica de Programação avançada</li>
+                        <li class="py-2">Interesse por Game Design e UX</li>
+                        <li class="pt-2 pb-1">Criatividade e trabalho em equipe</li>
+                    </ul>
+                </div>
+                <hr class="w-full border-t border-gray-200 my-4">
+                <div>
+                    <button class="bg-[#0E723F] text-white rounded-md p-3 px-6 mb-5">
+                        Saiba Mais
+                    </button>
                 </div>
             </article>
         </section>
+        <article id="sobre"class=" bg-white mt-8 flex flex-col items-center justify-center text-gray-700 pt-10 pb-20">
+            <h1 class="text-[#00843D] text-3xl font-bold pb-6">
+                Sobre o IFRN
+            </h1>
+            <p class="text-justify leading-relaxed pb-5 px-5">
+                O Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte (IFRN) é uma instituição de ensino público que oferece diversos cursos técnicos, graduações e pós-graduações.
+            </p>
+            <p class="text-justify leading-relaxed px-5">
+                Os projetos de pesquisa e extensão são fundamentais para a formaçãod dos estudantes, proporcionando a experiência prática e contribuindo para o desenvolvimento da sociedade.
+            </p>
+        </article>
     </main>
-    <footer>
-
+    <footer class="bg-[#333333] text-gray-300">
+        <article class="md:flex flex-col md:px-40 md:flex flex-row md:gap-30">
+            <div id="ifrn" class="pt-10 px-4">
+            <h3 class="font-bold text-white">
+                IFRN
+            </h3>
+            <p class="text-sm pt-4">
+                Instituto Federal do Rio Grande do Norte
+            </p>
+        </div>
+        <div id="links" class="py-10 px-4 flex flex-col">
+            <h3 class="font-bold text-white pb-4">
+                Links Úteis
+            </h3>
+            <a href="https://portal.ifrn.edu.br/" target="_blank" class="text-sm pb-4">
+                Portal IFRN
+            </a>
+            <a href="https://portal.ifrn.edu.br/campus/natalcentral/diretoria-de-pesquisa-e-inovacao/" target="_blank" class=" text-sm pb-4">
+                Pesquisa
+            </a>
+            <a href="https://portal.ifrn.edu.br/institucional/extensao/" target="_blank" class="text-sm pb-4">
+                Extensão
+            </a>
+        </div>
+        <div id="contato" class="px-4 md:pt-10">
+            <h3 class="font-bold text-white pb-4">
+                Contato
+            </h3>
+            <p class="text-sm pb-4">
+                Email: contato@ifrn.edu.br
+            </p>
+            <p class="text-sm pb-4">
+                Telefone: (84) 4005-0000
+            </p>
+        </div>
+        </article>
+        <div class="px-5 flex flex-col justify-center items-center">
+            <hr class="w-full border-t border-gray-200/20 px-5 xl:px-10">
+            <p class="text-gray-400 text-xs py-5">
+                © 2025 IFRN. Todos os direitos reservados.
+            </p>
+        </div>
     </footer>
 </body>
 
