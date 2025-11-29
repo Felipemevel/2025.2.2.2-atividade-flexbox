@@ -1,25 +1,108 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/output.css" rel="stylesheet">
+
     <title>IFRN - LADING PAGE</title>
 </head>
-<body>
-    <header>
-        <h1>
-            IFRN - PESQUISAS E PROJETOS DE EXTENSÃO
-        </h1>
-        <nav>
 
-        </nav>
+<body class="font-sans">
+    <header class="flex flex-col md:flex-col">
+        <section class="shadow-lg/70 md:order1">
+            <nav
+                class="bg-[#00843D] text-white text-center flex flex-col md:flex-row md:justify-between md:itemns-center">
+                <div class="md:text-left md:pl-15 md:pb-2">
+                    <h2 class="text-3xl font-bold p-5">
+                        IFRN
+                    </h2>
+                    <p>
+                        Oportunidades
+                    </p>
+                </div>
+                <div>
+                    <ul class="flex flex-col md:md:flex-row gap-6 text-center font-medium p-8">
+                        <li class="p-2">
+                            <a href="">
+                                Início
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="">
+                                Oportunidades
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="">
+                                Sobre
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="">
+                                Contato
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <section class="bg-linear-to-r from-[#00843D] to-[#00A859] p-5 text-white text-center">
+            <h1 class="text-3xl font-bold pb-7">
+                Construa o seu futuro com o IFRN
+            </h1>
+            <p class="pb-7">
+                Descubra oportunidades em projetos de pesquisa e extensão
+            </p>
+            <div
+                class="bg-[#FDB913] text-black w-56 h-12 flex items-center justify-center mx-auto rounded-lg font-semibold px-4 hover:bg-yellow-400 cursor-pointer">
+                <a href="#oportunidades">
+                    Explorar Oportunidades
+                </a>
+            </div>
+        </section>
     </header>
-    <main>
+    <main class="bg-gray-900">
+        <section id="oportunidades" class="pt-25 text-center px-10 pb-13">
+            <h1 class="text-3xl font-bold text-[#00843D] leading-relaxed">
+                Oportunidades Disponíveis
+            </h1>
+            <p class="pt-5 text-gray-600">
+                Explore projetos de pesquisa e extensão nas diversas áreas do conhecimento
+            </p>
+        </section>
+        <section class="flex flex-col gap-6 p-4 items-center w-full">
+            <article id="daw" class="bg-white w-80 rounded-lg shadow-lg  flex items-center p-4">
+                <div>
+                    <h2>
+                        Desenvolvimento de Aplicações Web
+                    </h2>
+                </div>
+                <div>
 
+                </div>
+            </article>
+            <article id="idc" class="bg-white w-80 flex items-center mx-auto pt-5">
+                <div>
+                    <h2>
+                        Inclusão Digital na Comunidade
+                    </h2>
+                </div>
+            </article>
+            <article id="iaml">
+                <div>
+                    <h2>
+                        Inteligência Artificial e Machine Learning
+                    </h2>
+                </div>
+            </article>
+        </section>
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
